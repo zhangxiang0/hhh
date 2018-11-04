@@ -1,0 +1,669 @@
+@media screen and (min-width: 768px){
+    .header{
+           height: 1.6rem;
+            
+            .header-top{
+                width: 40%;
+                height: 1.6rem;
+                .mylogo{
+                    margin-top: .05rem;
+                    margin-left: 0;
+                    height: 1.4rem;
+                    overflow: hidden;
+                    padding: .1rem;
+                    display:inline-block;
+                    img{
+                        width: 1.3rem;
+                        float: left;
+                        vertical-align: middle;
+                    }
+                    .logo-title{
+                        color: rgba(23, 32, 39, 1);
+                        font-family: KaiTi;
+                        font-size: .48rem;
+                        line-height: 1.5;
+                        text-align: center;
+                        display: inline-block;
+                        margin-top: .2rem;
+                        margin-left: .2rem;
+                    }
+                }
+                .navBtn{
+                    margin-top: .22rem;
+                }
+            }
+            .mynav{
+               
+                height: 1.6rem;
+               
+                li{
+                     padding: 0 .4rem;
+                     text-align: center;  
+                    
+                    a{
+                       padding: 0;
+                       line-height: 1.6rem;
+                       font-size: .32rem;
+                        
+                    }
+                }
+            }
+        }
+    .main{
+        margin-top: 1.6rem;
+        .banner{
+            background: url('http://img.zcool.cn/zcool-diy/ib50984cb15377797463e5d308fb98ee59.jpg@1920w_1l_1an.src');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height:19rem;
+            position: relative;
+            .bannerContent{
+                width: 80%;
+                height: 30%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                text-align: center;
+                .title{
+                    margin-bottom: .8rem;
+                }
+            }
+        }
+        .summary{
+            text-align: center;
+            padding-top:2.6rem ;
+            padding-bottom: 2.6rem;
+            
+            .title{
+                color: rgba(31, 31, 31, 1);
+                font-size: .72rem;
+                line-height: 1.5;
+    
+            }
+            .desc{
+                    color: rgba(31, 31, 31, 1);
+                    font-family: Helvetica;
+                    font-size: .48rem;
+                    line-height: 1.5;
+    
+            }
+            .line{
+                    width:1rem;
+                    height: .1rem;
+                    background: rgba(20, 120, 240, 1);
+                    border-width: 0;
+                    border-radius: 0;
+                    border-style: solid;
+                    margin: 0 auto;
+                    margin-bottom: .8rem;
+                    margin-top: .6rem;
+            }
+            .info{
+                    color: rgba(153, 153, 153, 1);
+                    font-size: .36rem;
+                    line-height: 1.8;
+                    text-align: left;
+                    
+                    
+            }
+        }
+        .culture{
+            height: 7rem;
+            overflow: hidden;
+            .culture-left{
+               height: 7rem;
+               background-image:url('http://img.zcool.cn/zcool-diy/ib9a3cd3afb18762d063dd0489b38ece6c.jpg@1920w_1l_1an.src');
+               background-size:cover;
+    //         background-position:right;
+               background-repeat: no-repeat;
+               position: relative;
+               .title{
+                            color: white;
+                            font-size: .72rem;
+                            line-height: 1.5;
+                            position: absolute;
+                            top: 128px;
+                            left: 150px;
+               }
+               .desc{
+                   color: rgba(255, 255, 255, 1);
+                        font-size: .5rem;
+                        line-height: 1.5;
+                        position: absolute;
+                        top: 200px;
+                        left: 150px;
+               }
+            }
+            .culture-right{
+                    height: 7rem;
+                    color: rgba(255, 255, 255, 1);
+                    background: linear-gradient(#6eadde,#0f8def);
+                    font-size: .4rem;
+                    line-height: 1.8;
+                    text-align: left;
+            }
+        }
+        .course{
+            text-align: center;
+            padding: 2.6rem 0;
+            .title{
+                color: rgba(31, 31, 31, 1);
+                font-size: .72rem;
+                line-height: 1.5;
+    
+            }
+            .desc{
+                    color: rgba(31, 31, 31, 1);
+                    font-family: Helvetica;
+                    font-size: .48rem;
+                    line-height: 1.5;
+          
+            }
+            .line{
+                    width:1rem;
+                    height: .1rem;
+                    background: rgba(20, 120, 240, 1);
+                    border-width: 0;
+                    border-radius: 0;
+                    border-style: solid;
+                    margin: 0 auto;
+                    margin-bottom: .8rem;
+                    margin-top: .6rem;
+            }
+            .info{
+                    color: rgba(153, 153, 153, 1);
+                    font-size: .36rem;
+                    line-height: 1.8;
+                    text-align: left;
+            }
+        }
+        .courseContent{
+            position: relative;
+            height: 600px;
+        }
+        .courseContent2{
+            display: none;
+        }
+        
+        .achievement{
+            text-align: center;
+            padding: 2.6rem 0;
+            .title{
+                color: rgba(31, 31, 31, 1);
+                font-size: .72rem;
+                line-height: 1.5;
+    
+            }
+            .desc{
+                    color: rgba(31, 31, 31, 1);
+                    font-family: Helvetica;
+                    font-size: .48rem;
+                    line-height: 1.5;
+          
+            }
+            .line{
+                    width:1rem;
+                    height: .1rem;
+                    background: rgba(20, 120, 240, 1);
+                    border-width: 0;
+                    border-radius: 0;
+                    border-style: solid;
+                    margin: 0 auto;
+                    margin-bottom: .8rem;
+                    margin-top: .6rem;
+            }
+            .info{
+                    color: rgba(153, 153, 153, 1);
+                    font-size: .36rem;
+                    line-height: 1.8;
+                    text-align: left;
+            }
+            .list{
+                li{
+                    margin-bottom: .4rem;
+                   .zsContent{
+                       
+                       .zsImg{
+                           width: 100%;
+                            overflow: hidden;
+                            img{
+                               width: 100%;
+                           }
+                       }
+                       
+                       .info{
+                           text-align: left;
+                               color: #6f6e6a;
+                               font-size: .32rem;
+                       }
+                       &:hover{
+                           
+                           img{
+                               transition: .5s;
+                              transform: scale(1.2);
+                           }
+                       }
+                   }
+                    
+                }
+            }
+        }
+        .wrapper-bottom{
+            background-image:url('http://img.zcool.cn/zcool-diy/ibc9f5dd6844cb8fc07444a28373c367c1.jpg@1920w_1l_1an.src');
+            background-size:cover;
+            background-position:center;
+            height: 9rem;
+            position: relative;
+            .content{
+                text-align: center;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+                width: 50%;
+                height: 30%;
+                
+                
+                        
+                .title{
+                    color:rgba(255, 255, 255, 1);
+                    font-size:.8rem;
+                    text-align:center;
+                    margin-bottom: .6rem;
+                    
+                }
+                .msg{
+                    color:rgba(255, 255, 255, 1);
+                    font-size:.4rem;
+                    text-align:center;
+                }
+            }
+        }
+        
+    }
+    
+    .footer{
+        background: rgba(39, 118, 211, 1);
+        height: 5rem;
+        
+        overflow: hidden;
+        .mynav2{
+            margin: 0 auto;
+            float: none;
+            margin-top: 1rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            
+            li{
+                
+                width: 20%;
+                a{
+                    color: #000;
+                    font-size: .32rem;
+                    background: rgba(39, 118, 211, 1);
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+                
+            }
+        }
+        .title{
+            font-size: .4rem;
+            letter-spacing: 2px;
+            color:rgba(135, 152, 170, 1);
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .header{
+           height: 1.2rem;
+            
+            .header-top{
+                
+                height: 1.2rem;
+                .mylogo{
+                    width: 70%;
+                    height: 1.2rem;
+                    overflow: hidden;
+                    padding: .1rem;
+                    margin-left: .1rem;
+                    img{
+                        width: .8rem;
+                        float: left;
+                        margin-top: .1rem;
+                    }
+                    .logo-title{
+                        color: rgba(23, 32, 39, 1);
+                        font-family: KaiTi;
+                        font-size: .32rem;
+//                      line-height: 1.5;
+                        text-align: center;
+                        display: inline-block;
+                        margin-top: .3rem;
+                        margin-left: .06rem;
+                    }
+                }
+                .navBtn{
+                    margin-top: .22rem;
+                }
+            }
+            .mynav{
+                li{
+                   
+                    a{
+                       
+                        
+                    }
+                }
+            }
+        }
+
+    .main{
+        margin-top: 1rem;
+        .banner{
+            background: url('http://img.zcool.cn/zcool-diy/ib50984cb15377797463e5d308fb98ee59.jpg@1920w_1l_1an.src');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height:4.44rem;
+            position: relative;
+            .bannerContent{
+                width: 80%;
+                height: 2rem;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -1rem;
+                margin-left: -40%;
+                text-align: center;
+                .title{
+                    margin-top: .2rem;
+                    margin-bottom: .6rem;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .title2{
+//                  margin-bottom: .8rem;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .summary{
+            text-align: center;
+            padding-top:1rem ;
+            padding-bottom: 1rem;
+            
+            .title{
+                color: rgba(31, 31, 31, 1);
+                font-size: .56rem;
+                line-height: 1.5;
+    
+            }
+            .desc{
+                    color: rgba(101, 107, 111, 1);
+                    font-family: Helvetica;
+                    font-size: .36rem;
+                    line-height: 1.5;
+    
+            }
+            .line{
+                    width:1rem;
+                    height: .1rem;
+                    background: rgba(20, 120, 240, 1);
+                    border-width: 0;
+                    border-radius: 0;
+                    border-style: solid;
+                    margin: 0 auto;
+                    margin-bottom: .8rem;
+                    margin-top: .4rem;
+            }
+            .info{
+                    color: #172027;
+                    font-size: .36rem;
+                    line-height: 1.8;
+                    text-align: left;
+                    
+                    
+            }
+        }
+        .culture{
+            background-image:url('http://img.zcool.cn/zcool-diy/ib9a3cd3afb18762d063dd0489b38ece6c.jpg@1000w_1e_1l_1an.src');
+            background-size:cover;
+            background-position:center;
+            color: #000;
+            background-repeat: no-repeat;
+            .culture-left{
+                text-align: center;
+                color: #fff;
+                padding-top: .8rem;
+                padding-bottom: .4rem;
+               .title{
+                            
+                    font-size: .58rem;
+                    line-height: 1.5;
+                   
+                           
+               }
+               .desc{
+                       
+                    font-size: .36rem;
+                    line-height: 1.5;
+                        
+               }
+            }
+            .culture-right{
+                    
+                    color: #fff;
+                   
+                    font-size: .32rem;
+                    line-height: 1.8;
+                    text-align: left;
+                    padding-bottom: .4rem;
+            }
+        }
+        .course{
+            text-align: center;
+            padding-top: 1rem;
+            .title{
+                color: rgba(31, 31, 31, 1);
+                font-size: .56rem;
+                line-height: 1.5;
+    
+            }
+            .desc{
+                    color: rgba(31, 31, 31, 1);
+                    font-family: Helvetica;
+                    font-size: .36rem;
+                    line-height: 1.5;
+          
+            }
+            .line{
+                    width:1rem;
+                    height: .1rem;
+                    background: rgba(20, 120, 240, 1);
+                    border-width: 0;
+                    border-radius: 0;
+                    border-style: solid;
+                    margin: 0 auto;
+                    margin-bottom: .8rem;
+                    margin-top: .4rem;
+            }
+            .info{
+                    color: rgba(153, 153, 153, 1);
+                    font-size: .36rem;
+                    line-height: 1.8;
+                    text-align: left;
+            }
+        }
+        .courseContent{
+            position: relative;
+            height: 600px;
+            display: none;
+        }
+        .courseContent2{
+            .content{
+                text-align: center;
+                padding-bottom:.6rem ;
+                .title{
+                    font-size: .48rem;
+                    
+                }
+                .time{
+                    font-size: .32rem;
+                    margin-top: .3rem;
+                }
+                .desc{
+                    font-size: .32rem;
+                    margin-top: .3rem;
+                    line-height: 1.5;
+                }
+                
+            }
+        }
+        
+        .achievement{
+            text-align: center;
+            padding-top: 1rem;
+
+            .title{
+                color: rgba(31, 31, 31, 1);
+                font-size: .56rem;
+                line-height: 1.5;
+    
+            }
+            .desc{
+                    color: rgba(31, 31, 31, 1);
+                    font-family: Helvetica;
+                    font-size: .32rem;
+                    line-height: 1.5;
+          
+            }
+            .line{
+                    width:1rem;
+                    height: .1rem;
+                    background: rgba(20, 120, 240, 1);
+                    border-width: 0;
+                    border-radius: 0;
+                    border-style: solid;
+                    margin: 0 auto;
+                    margin-bottom: .8rem;
+                    margin-top: .4rem;
+            }
+            .info{
+                    color: rgba(153, 153, 153, 1);
+                    font-size: .36rem;
+                    line-height: 1.8;
+                    text-align: left;
+            }
+            .list{
+                li{
+                    margin-bottom: .4rem;
+                   .zsContent{
+                      
+                       .zsImg{
+                           width: 100%;
+                            overflow: hidden;
+                            img{
+                               width: 100%;
+                           }
+                       }
+                       
+                       .info{
+                           text-align: left;
+                               color: #6f6e6a;
+                               font-size: .32rem;
+                       }
+                       &:hover{
+                           
+                           img{
+                               transition: .5s;
+                              transform: scale(1.2);
+                           }
+                       }
+                   }
+                    
+                }
+            }
+        }
+        .wrapper-bottom{
+            background-image:url('http://img.zcool.cn/zcool-diy/ibc9f5dd6844cb8fc07444a28373c367c1.jpg@1920w_1l_1an.src');
+            background-size:cover;
+            background-position:center;
+            height: 9rem;
+            position: relative;
+            .content{
+                text-align: center;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                margin: auto;
+                width: 80%;
+                height: 30%;
+                
+                
+                        
+                .title{
+                    color:rgba(255, 255, 255, 1);
+                    font-size:.56rem;
+                    text-align:center;
+                    margin-bottom: .6rem;
+                    
+                }
+                .msg{
+                    color:rgba(255, 255, 255, 1);
+                    font-size:.32rem;
+                    text-align:center;
+                }
+            }
+        }
+        
+    }
+    
+    .footer{
+        background: rgba(39, 118, 211, 1);
+        height: 1rem;
+        
+        overflow: hidden;
+        .mynav2{
+            margin: 0 auto;
+            float: none;
+            margin-top: 1rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            display: none;
+            li{
+                
+                width: 20%;
+                a{
+                    color: #000;
+                    font-size: .32rem;
+                    background: rgba(39, 118, 211, 1);
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+                
+            }
+        }
+        .title{
+            font-size: .24rem;
+            letter-spacing: 1px;
+            margin-top: .2rem;
+            color:rgba(135, 152, 170, 1);
+        }
+    }
+}

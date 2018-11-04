@@ -1,0 +1,127 @@
+ @media screen and (min-width: 768px ) {
+ 	
+ 
+  .header {
+    height: 1.6rem; }
+    .header .header-top {
+      width: 40%;
+      height: 1.6rem; }
+      .header .header-top .mylogo {
+        margin-top: .05rem;
+        margin-left: 0;
+        height: 1.4rem;
+        overflow: hidden;
+        padding: .1rem;
+        display: inline-block; }
+        .header .header-top .mylogo img {
+          width: 1.3rem;
+          float: left;
+          vertical-align: middle; }
+        .header .header-top .mylogo .logo-title {
+          color: #172027;
+          font-family: KaiTi;
+          font-size: .48rem;
+          line-height: 1.5;
+          text-align: center;
+          display: inline-block;
+          margin-top: .2rem;
+          margin-left: .2rem; }
+      .header .header-top .navBtn {
+        margin-top: .22rem; }
+    .header .mynav {
+      height: 1.6rem; }
+      .header .mynav li {
+        padding: 0 .4rem;
+        text-align: center; }
+        .header .mynav li a {
+          padding: 0;
+          line-height: 1.6rem;
+          font-size: .32rem; }
+          
+          
+          
+          .footer {
+    background: #2776d3;
+    height: 5rem;
+    overflow: hidden; }
+    .footer .mynav2 {
+      margin: 0 auto;
+      float: none;
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+      text-align: center; }
+      .footer .mynav2 li {
+        width: 20%; }
+        .footer .mynav2 li a {
+          color: #000;
+          font-size: .32rem;
+          background: #2776d3; }
+          .footer .mynav2 li a:hover {
+            color: #fff; }
+    .footer .title {
+      font-size: .4rem;
+      letter-spacing: 2px;
+      color: #8798aa; }
+          
+          
+}
+
+
+
+@media screen and (max-width: 768px) {
+	  .header {
+    height: 1.2rem; 
+    margin-bottom: 1.2rem;
+    }
+    .header .header-top {
+      height: 1.2rem; }
+      .header .header-top .mylogo {
+        width: 70%;
+        height: 1.2rem;
+        overflow: hidden;
+        padding: .1rem;
+        margin-left: .1rem; }
+        .header .header-top .mylogo img {
+          width: .8rem;
+          float: left;
+          margin-top: .1rem; }
+        .header .header-top .mylogo .logo-title {
+          color: #172027;
+          font-family: KaiTi;
+          font-size: .32rem;
+          text-align: center;
+          display: inline-block;
+          margin-top: .3rem;
+          margin-left: .06rem; }
+      .header .header-top .navBtn {
+        margin-top: .22rem; }
+        
+        
+        .footer {
+    background: #2776d3;
+    height: 1rem;
+    overflow: hidden; }
+    .footer .mynav2 {
+      margin: 0 auto;
+      float: none;
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      display: none; }
+      .footer .mynav2 li {
+        width: 20%; }
+        .footer .mynav2 li a {
+          color: #000;
+          font-size: .32rem;
+          background: #2776d3; }
+          .footer .mynav2 li a:hover {
+            color: #fff; }
+    .footer .title {
+      font-size: .24rem;
+      letter-spacing: 1px;
+      margin-top: .2rem;
+      color: #8798aa;
+      line-height: 1.5; }
+	
+	
+}

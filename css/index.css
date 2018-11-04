@@ -1,0 +1,418 @@
+@media screen and (min-width: 768px) {
+  .header {
+    height: 1.6rem; }
+    .header .header-top {
+      width: 40%;
+      height: 1.6rem; }
+      .header .header-top .mylogo {
+        margin-top: .05rem;
+        margin-left: 0;
+        height: 1.4rem;
+        overflow: hidden;
+        padding: .1rem;
+        display: inline-block; }
+        .header .header-top .mylogo img {
+          width: 1.3rem;
+          float: left;
+          vertical-align: middle; }
+        .header .header-top .mylogo .logo-title {
+          color: #172027;
+          font-family: KaiTi;
+          font-size: .48rem;
+          line-height: 1.5;
+          text-align: center;
+          display: inline-block;
+          margin-top: .2rem;
+          margin-left: .2rem; }
+      .header .header-top .navBtn {
+        margin-top: .22rem; }
+    .header .mynav {
+      height: 1.6rem; }
+      .header .mynav li {
+        padding: 0 .4rem;
+        text-align: center; }
+        .header .mynav li a {
+          padding: 0;
+          line-height: 1.6rem;
+          font-size: .32rem; }
+
+  .main .banner {
+    padding: 0; }
+    .main .banner .banner-content {
+      position: relative;
+      height: 12rem; }
+      .main .banner .banner-content .carousel-inner img {
+        width: 100%;
+        height: 12rem; }
+      .main .banner .banner-content .jt {
+        display: block;
+        background: rgba(255, 255, 255, 0.6);
+        width: 1.2rem;
+        height: 1.2rem;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        line-height: 1.2rem;
+        text-align: center;
+        margin-top: -15px;
+        font-size: .8rem;
+        color: #000; }
+      .main .banner .banner-content .zjt {
+        left: 3%; }
+      .main .banner .banner-content .yjt {
+        right: 3%; }
+  .main .aboutus {
+    padding: 1rem 0; }
+    .main .aboutus .content-left {
+      margin-bottom: .6rem; }
+      .main .aboutus .content-left .title {
+        color: #1f1f1f;
+        font-size: .72rem;
+        line-height: 1.5; }
+      .main .aboutus .content-left .desc {
+        color: #1f1f1f;
+        font-family: Helvetica;
+        font-size: .48rem;
+        line-height: 1.5; }
+      .main .aboutus .content-left .line {
+        width: 1rem;
+        height: .1rem;
+        background: #1478f0;
+        border-width: 0;
+        border-radius: 0;
+        border-style: solid;
+        margin-bottom: .6rem;
+        margin-top: .6rem; }
+      .main .aboutus .content-left .desc {
+        font-size: .36rem;
+        color: #999999;
+        font-size: 18px;
+        line-height: 1.8;
+        text-align: left; }
+      .main .aboutus .content-left .more {
+        font-size: 18px;
+        text-align: right;
+        margin-top: .4rem; }
+        .main .aboutus .content-left .more .moreContent {
+          display: inline-block;
+          height: 1rem;
+          line-height: 1rem;
+          width: 200px;
+          background: #1478f0;
+          border: 2px solid #1478f0;
+          color: #fff;
+          transition: .5s;
+          text-align: center; }
+          .main .aboutus .content-left .more .moreContent:hover {
+            border: 2px solid #1478f0;
+            background: #fff;
+            color: #1478f0; }
+    .main .aboutus .content-right {
+      height: 100%;
+      margin-bottom: .6rem; }
+      .main .aboutus .content-right img {
+        height: 100%;
+        width: 100%; }
+  .main .userInfo {
+    padding: 0;
+    overflow: hidden;
+    background: url(../img/sjBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 7.6rem;
+    position: relative; }
+    .main .userInfo .myList {
+      width: 100%;
+      text-align: center;
+      height: 3rem;
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -1.5rem;
+      margin-left: -50%; }
+      .main .userInfo .myList .msg {
+        font-size: 1.44rem;
+        margin-bottom: .4rem; }
+      .main .userInfo .myList .msg2 {
+        font-size: .6rem; }
+  .main .newInfomation {
+    text-align: center;
+    padding: 1.2rem 0; }
+    .main .newInfomation .title {
+      color: #1f1f1f;
+      font-size: .72rem;
+      line-height: 1.5; }
+    .main .newInfomation .desc {
+      color: #1f1f1f;
+      font-family: Helvetica;
+      font-size: .48rem;
+      line-height: 1.5; }
+    .main .newInfomation .line {
+      width: 1rem;
+      height: .1rem;
+      background: #1478f0;
+      border-width: 0;
+      border-radius: 0;
+      border-style: solid;
+      margin: 0 auto;
+      margin-bottom: .8rem;
+      margin-top: .6rem; }
+  .main .newInfomationContent {
+    padding-bottom: 3rem; }
+    .main .newInfomationContent .title {
+      color: #172027;
+      font-family: SimSun;
+      font-size: .6rem;
+      line-height: 1.5; }
+    .main .newInfomationContent .infoImg1 {
+      width: 4rem;
+      overflow: hidden;
+      margin-top: .3rem;
+      margin-bottom: .3rem; }
+      .main .newInfomationContent .infoImg1 img {
+        width: 100%; }
+    .main .newInfomationContent .infoImg2 {
+      width: 100%;
+      overflow: hidden;
+      margin-top: 1rem;
+      margin-bottom: 2.2rem; }
+      .main .newInfomationContent .infoImg2 img {
+        width: 100%; }
+    .main .newInfomationContent .desc {
+      color: #172027;
+      font-family: STHeitiSC-Medium;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1.5; }
+
+  .footer {
+    background: #2776d3;
+    height: 5rem;
+    overflow: hidden; }
+    .footer .mynav2 {
+      margin: 0 auto;
+      float: none;
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+      text-align: center; }
+      .footer .mynav2 li {
+        width: 20%; }
+        .footer .mynav2 li a {
+          color: #000;
+          font-size: .32rem;
+          background: #2776d3; }
+          .footer .mynav2 li a:hover {
+            color: #fff; }
+    .footer .title {
+      font-size: .4rem;
+      letter-spacing: 2px;
+      color: #8798aa; } }
+@media screen and (max-width: 768px) {
+  .header {
+    height: 1.2rem; }
+    .header .header-top {
+      height: 1.2rem; }
+      .header .header-top .mylogo {
+        width: 70%;
+        height: 1.2rem;
+        overflow: hidden;
+        padding: .1rem;
+        margin-left: .1rem; }
+        .header .header-top .mylogo img {
+          width: .8rem;
+          float: left;
+          margin-top: .1rem; }
+        .header .header-top .mylogo .logo-title {
+          color: #172027;
+          font-family: KaiTi;
+          font-size: .32rem;
+          text-align: center;
+          display: inline-block;
+          margin-top: .3rem;
+          margin-left: .06rem; }
+      .header .header-top .navBtn {
+        margin-top: .22rem; }
+
+  .main {
+    margin-top: 1rem; }
+    .main .banner {
+      padding: 0; }
+      .main .banner .banner-content {
+        position: relative;
+        height: 5rem; }
+        .main .banner .banner-content .carousel-inner img {
+          width: 100%;
+          height: 5rem; }
+        .main .banner .banner-content .jt {
+          display: block;
+          background: rgba(255, 255, 255, 0.6);
+          width: 1rem;
+          height: 1rem;
+          border-radius: 50%;
+          position: absolute;
+          top: 50%;
+          line-height: 1rem;
+          text-align: center;
+          margin-top: -15px;
+          font-size: .8rem;
+          color: #000; }
+        .main .banner .banner-content .zjt {
+          left: 3%; }
+        .main .banner .banner-content .yjt {
+          right: 3%; }
+    .main .aboutus {
+      padding: 1rem 0; }
+      .main .aboutus .content-left {
+        margin-bottom: .6rem;
+        text-align: center; }
+        .main .aboutus .content-left .title {
+          color: #1f1f1f;
+          font-size: .56rem;
+          line-height: 1.5; }
+        .main .aboutus .content-left .desc {
+          color: #1f1f1f;
+          font-family: Helvetica;
+          font-size: .36rem;
+          line-height: 1.5; }
+        .main .aboutus .content-left .line {
+          width: 1rem;
+          height: .1rem;
+          background: #1478f0;
+          border-width: 0;
+          border-radius: 0;
+          border-style: solid;
+          margin: .4rem auto .8rem; }
+        .main .aboutus .content-left .desc {
+          font-size: .36rem;
+          color: #999999;
+          font-size: 18px;
+          line-height: 1.8; }
+        .main .aboutus .content-left .more {
+          font-size: .32rem;
+          text-align: center;
+          margin-top: .4rem; }
+          .main .aboutus .content-left .more .moreContent {
+            display: inline-block;
+            height: 1rem;
+            line-height: 1rem;
+            width: 3rem;
+            background: #1478f0;
+            border: 2px solid #1478f0;
+            color: #fff;
+            transition: .5s;
+            text-align: center; }
+            .main .aboutus .content-left .more .moreContent:hover {
+              border: 2px solid #1478f0;
+              background: #fff;
+              color: #1478f0; }
+      .main .aboutus .content-right {
+        height: 100%;
+        margin-bottom: .6rem;
+        display: none; }
+        .main .aboutus .content-right img {
+          height: 100%;
+          width: 100%; }
+    .main .userInfo {
+      padding: 0;
+      overflow: hidden;
+      background: url(../img/sjBg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 2.4rem;
+      position: relative; }
+      .main .userInfo .myList {
+        width: 100%;
+        text-align: center;
+        height: 2rem;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -1rem;
+        margin-left: -50%; }
+        .main .userInfo .myList .msg {
+          font-size: .4rem;
+          margin-bottom: .4rem;
+          margin-top: .4rem; }
+        .main .userInfo .myList .msg2 {
+          font-size: .28rem; }
+    .main .newInfomation {
+      text-align: center;
+      padding-top: 1rem; }
+      .main .newInfomation .title {
+        color: #1f1f1f;
+        font-size: .56rem;
+        line-height: 1.5; }
+      .main .newInfomation .desc {
+        color: #1f1f1f;
+        font-family: Helvetica;
+        font-size: .36rem;
+        line-height: 1.5; }
+      .main .newInfomation .line {
+        width: 1rem;
+        height: .1rem;
+        background: #1478f0;
+        border-width: 0;
+        border-radius: 0;
+        border-style: solid;
+        margin: 0 auto;
+        margin-bottom: .8rem;
+        margin-top: .4rem; }
+    .main .newInfomationContent {
+      padding-bottom: 1rem; }
+      .main .newInfomationContent .title {
+        color: #172027;
+        font-family: SimSun;
+        font-size: .48rem;
+        line-height: 1.5; }
+      .main .newInfomationContent .infoImg1 {
+        width: 4rem;
+        overflow: hidden;
+        margin: 0.3rem auto; }
+        .main .newInfomationContent .infoImg1 img {
+          width: 100%; }
+      .main .newInfomationContent .infoImg2 {
+        width: 100%;
+        overflow: hidden;
+        margin-top: .6rem;
+        margin-bottom: .6rem; }
+        .main .newInfomationContent .infoImg2 img {
+          width: 100%; }
+      .main .newInfomationContent .desc {
+        color: #172027;
+        font-family: STHeitiSC-Medium;
+        font-size: .36rem;
+        line-height: 1.5;
+        margin-bottom: .6rem; }
+
+  .footer {
+    background: #2776d3;
+    height: 1rem;
+    overflow: hidden; }
+    .footer .mynav2 {
+      margin: 0 auto;
+      float: none;
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      display: none; }
+      .footer .mynav2 li {
+        width: 20%; }
+        .footer .mynav2 li a {
+          color: #000;
+          font-size: .32rem;
+          background: #2776d3; }
+          .footer .mynav2 li a:hover {
+            color: #fff; }
+    .footer .title {
+      font-size: .24rem;
+      letter-spacing: 1px;
+      margin-top: .2rem;
+      color: #8798aa;
+      line-height: 1.5; } }
+
+/*# sourceMappingURL=index.css.map */

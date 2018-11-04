@@ -1,0 +1,262 @@
+@media screen and (min-width: 768px) {
+  .header {
+    height: 1.6rem; }
+    .header .navbar {
+      border-radius: 0px; }
+    .header .header-top {
+      width: 40%;
+      height: 1.6rem; }
+      .header .header-top .mylogo {
+        margin-top: .05rem;
+        margin-left: 0;
+        height: 1.4rem;
+        overflow: hidden;
+        padding: .1rem;
+        display: inline-block; }
+        .header .header-top .mylogo img {
+          width: 1.3rem;
+          float: left;
+          vertical-align: middle; }
+        .header .header-top .mylogo .logo-title {
+          color: #172027;
+          font-family: KaiTi;
+          font-size: .48rem;
+          line-height: 1.5;
+          text-align: center;
+          display: inline-block;
+          margin-top: .2rem;
+          margin-left: .2rem; }
+      .header .header-top .navBtn {
+        margin-top: .22rem; }
+    .header .mynav {
+      height: 1.6rem; }
+      .header .mynav li {
+        padding: 0 .4rem;
+        text-align: center; }
+        .header .mynav li a {
+          padding: 0;
+          line-height: 1.6rem;
+          font-size: .32rem; }
+
+  .main {
+    margin-top: 1.6rem; }
+    .main .content {
+      background-image: url("../img/hydtBg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 12rem; }
+      .main .content .box {
+        position: relative;
+        width: 60%;
+        top: 40%;
+        left: 50%;
+        margin-left: -26%;
+        height: 3rem;
+        margin-top: -1.5rem; }
+      .main .content .word {
+        position: absolute;
+        top: 1.3rem;
+        left: 1.1rem; }
+      .main .content .contentText {
+        position: absolute;
+        top: 3.2rem;
+        left: 5.1rem;
+        color: white;
+        font-size: 1rem; }
+    .main .show {
+      position: relative;
+      top: 1.2rem;
+      margin-bottom: 1rem;
+      width: 90%;
+      left: 5%; }
+      .main .show .showImg {
+        text-align: center; }
+        .main .show .showImg .img123 {
+          position: relative;
+          left: 13%;
+          top: 0.5rem;
+          width: 74%; }
+      .main .show .showText1 {
+        color: #1f1f1f;
+        font-size: 0.5rem;
+        line-height: 1.5;
+        text-align: left;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem; }
+      .main .show .showText2 {
+        color: #666666;
+        font-family: Helvetica;
+        font-size: 0.3rem;
+        line-height: 1.5;
+        text-align: left; }
+      .main .show .showText3 {
+        color: #666666;
+        font-size: 0.4rem;
+        line-height: 2;
+        text-align: left;
+        margin-top: 0.6rem;
+        margin-bottom: 0.4rem; }
+    .main .show:hover {
+      background: #FAFAFA; }
+
+  .footer {
+    position: relative;
+    background: #2776d3;
+    height: 5rem;
+    overflow: hidden;
+    width: 100%;
+    top: 2rem; }
+
+  .footer .mynav2 {
+    margin: 0 auto;
+    float: none;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center; }
+
+  .footer .mynav2 li {
+    width: 20%; }
+
+  .footer .mynav2 li a {
+    color: #000;
+    font-size: .32rem;
+    background: #2776d3; }
+
+  .footer .mynav2 li a:hover {
+    color: #fff; }
+
+  .footer .title {
+    font-size: .4rem;
+    letter-spacing: 2px;
+    color: #8798aa; } }
+@media screen and (max-width: 768px) {
+  .header {
+    height: 1.2rem; }
+    .header .header-top {
+      height: 1.2rem; }
+      .header .header-top .mylogo {
+        width: 70%;
+        height: 1.2rem;
+        overflow: hidden;
+        padding: .1rem;
+        margin-left: .1rem; }
+        .header .header-top .mylogo img {
+          width: .8rem;
+          float: left;
+          margin-top: .1rem; }
+        .header .header-top .mylogo .logo-title {
+          color: #172027;
+          font-family: KaiTi;
+          font-size: .32rem;
+          text-align: center;
+          display: inline-block;
+          margin-top: .3rem;
+          margin-left: .06rem; }
+      .header .header-top .navBtn {
+        margin-top: .22rem; }
+
+  .main {
+    margin-top: 1rem; }
+    .main .content {
+      background-image: url("../img/hydtBg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 4rem;
+      position: relative;
+      top: 1.7rem; }
+      .main .content .box {
+        position: relative;
+        width: 60%;
+        top: 40%;
+        left: 50%;
+        margin-left: -26%;
+        height: 3rem;
+        margin-top: -1.5rem; }
+      .main .content .kuang {
+        width: 100%;
+        position: absolute;
+        top: 0rem;
+        left: -0.27rem; }
+      .main .content .word {
+        position: absolute;
+        width: 75%;
+        top: 0.4rem;
+        left: 0.24rem; }
+      .main .content .contentText {
+        position: relative;
+        top: 1.0rem;
+        left: 1.18rem;
+        color: white;
+        font-size: 0.39rem; }
+    .main .show {
+      position: relative;
+      top: 1.2rem;
+      margin-bottom: 0.3rem;
+      width: 90%;
+      left: 5%; }
+      .main .show .showImg {
+        text-align: center; }
+        .main .show .showImg .img123 {
+          position: relative;
+          top: 1rem;
+          width: 100%;
+          height: 3.7rem; }
+      .main .show .showText1 {
+        color: #1f1f1f;
+        font-size: 0.25rem;
+        line-height: 1.5;
+        text-align: left;
+        margin-top: 1.3rem;
+        margin-bottom: 0.5rem; }
+      .main .show .showText2 {
+        color: #666666;
+        font-family: Helvetica;
+        font-size: 0.3rem;
+        line-height: 1.5;
+        text-align: left; }
+      .main .show .showText3 {
+        color: #666666;
+        font-size: 0.2rem;
+        line-height: 2;
+        text-align: left;
+        margin-top: 0.6rem;
+        margin-bottom: 0.4rem; }
+    .main .show:hover {
+      background: #FAFAFA; }
+
+  .footer {
+    background: #2776d3;
+    height: 1rem;
+    overflow: hidden;
+    position: relative;
+    top: 1.2rem; }
+
+  .footer .mynav2 {
+    margin: 0 auto;
+    float: none;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    display: none; }
+
+  .footer .mynav2 li {
+    width: 20%; }
+
+  .footer .mynav2 li a {
+    color: #000;
+    font-size: .32rem;
+    background: #2776d3; }
+
+  .footer .mynav2 li a:hover {
+    color: #fff; }
+
+  .footer .title {
+    font-size: .24rem;
+    letter-spacing: 1px;
+    margin-top: .2rem;
+    line-height: 1.5;
+    color: #8798aa; } }
+
+/*# sourceMappingURL=hydt.css.map */

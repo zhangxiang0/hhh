@@ -1,0 +1,394 @@
+@media screen and (min-width: 768px){
+    
+    .header{
+           height: 1.6rem;
+            
+            .header-top{
+                width: 40%;
+                height: 1.6rem;
+                .mylogo{
+                    margin-top: .05rem;
+                    margin-left: 0;
+                    height: 1.4rem;
+                    overflow: hidden;
+                    padding: .1rem;
+                    display:inline-block;
+                    img{
+                        width: 1.3rem;
+                        float: left;
+                        vertical-align: middle;
+                    }
+                    .logo-title{
+                        color: rgba(23, 32, 39, 1);
+                        font-family: KaiTi;
+                        font-size: .48rem;
+                        line-height: 1.5;
+                        text-align: center;
+                        display: inline-block;
+                        margin-top: .2rem;
+                        margin-left: .2rem;
+                    }
+                }
+                .navBtn{
+                    margin-top: .22rem;
+                }
+            }
+            .mynav{
+               
+                height: 1.6rem;
+               
+                li{
+                     padding: 0 .4rem;
+                     text-align: center;  
+                    
+                    a{
+                       padding: 0;
+                       line-height: 1.6rem;
+                       font-size: .32rem;
+                        
+                    }
+                }
+            }
+        }
+
+    
+    .main{
+        margin-top: 1.6rem;
+        .banner{
+            background: url('http://img.zcool.cn/zcool-diy/ibf2fcf97ec770221687e9b92c76afe3c1.jpg@1920w_1l_1an.src');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height:16rem;
+            position: relative;
+            .banner-content{
+               width: 50%;
+               height: 3.6rem;
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               margin-top: -1.8rem;
+               margin-left: -25%;
+               text-align: center;
+               .desc{
+                  color:rgba(255, 255, 255, 1);
+                  font-family:PingFangSC-Medium;
+                  font-size:.96rem;
+                  line-height:1.5;
+                  text-align:center;
+                  margin-top: .8rem;
+                  
+               }
+            }
+        }
+        .info-list{
+            text-align: center;
+            padding: .8rem 0;
+            .iconimg{
+                width: 1.8rem;
+                height: 1.8rem;
+                overflow: hidden;
+                margin: 0 auto;
+                img{
+                    width: 100%;
+                }
+            }
+            .name{
+                font-size: .4rem;
+                color:rgba(31, 31, 31, 1);
+                margin-bottom: .2rem;
+            }
+            .content,.content2{
+                color:rgba(111, 110, 106, 1);
+                font-size:.32rem;
+                line-height:1.8;
+                white-space: normal;
+                word-break: break-all;
+                word-wrap: break-word;
+            }
+        }
+        .onlineMsg{
+            text-align: center;
+            padding-top:2.6rem ;
+            padding-bottom: 2.6rem;
+            .title{
+                color: rgba(31, 31, 31, 1);
+                font-size: .72rem;
+                line-height: 1.5;
+    
+            }
+            .desc{
+                    color: rgba(31, 31, 31, 1);
+                    font-family: Helvetica;
+                    font-size: .48rem;
+                    line-height: 1.5;
+          
+            }
+            .line{
+                    width:1rem;
+                    height: .1rem;
+                    background: rgba(20, 120, 240, 1);
+                    border-width: 0;
+                    border-radius: 0;
+                    border-style: solid;
+                    margin: 0 auto;
+                    margin-bottom: .8rem;
+                    margin-top: .6rem;
+            }
+            .info{
+                    color: rgba(153, 153, 153, 1);
+                    font-size: .36rem;
+                    line-height: 1.8;
+                    text-align: left;
+            }
+        }
+        .userInfo{
+            .myForm{
+                 .form-info{
+                   margin-left: 0;
+                   margin-right: 0;
+                }
+                .leaveMsg{
+                    margin-top: .4rem;
+                    
+                }
+                .sendBtn{
+                    padding: 1rem 0;
+                }
+                
+            }
+        }
+    }
+    
+    .footer{
+        background: rgba(39, 118, 211, 1);
+        height: 5rem;
+        
+        overflow: hidden;
+        .mynav2{
+            margin: 0 auto;
+            float: none;
+            margin-top: 1rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            
+            li{
+                
+                width: 20%;
+                a{
+                    color: #000;
+                    font-size: .32rem;
+                    background: rgba(39, 118, 211, 1);
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+                
+            }
+        }
+        .title{
+            font-size: .4rem;
+            letter-spacing: 2px;
+            color:rgba(135, 152, 170, 1);
+        }
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+   
+   .header{
+           height: 1.2rem;
+            
+            .header-top{
+                
+                height: 1.2rem;
+                .mylogo{
+                    width: 70%;
+                    height: 1.2rem;
+                    overflow: hidden;
+                    padding: .1rem;
+                    margin-left: .1rem;
+                    img{
+                        width: .8rem;
+                        float: left;
+                        margin-top: .1rem;
+                    }
+                    .logo-title{
+                        color: rgba(23, 32, 39, 1);
+                        font-family: KaiTi;
+                        font-size: .32rem;
+//                      line-height: 1.5;
+                        text-align: center;
+                        display: inline-block;
+                        margin-top: .3rem;
+                        margin-left: .06rem;
+                    }
+                }
+                .navBtn{
+                    margin-top: .22rem;
+                }
+            }
+            .mynav{
+                li{
+                   
+                    a{
+                       
+                        
+                    }
+                }
+            }
+        }
+
+
+.main{
+    margin-top: 1rem;
+    .banner{
+        background: url('http://img.zcool.cn/zcool-diy/ibf2fcf97ec770221687e9b92c76afe3c1.jpg@1920w_1l_1an.src');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height:4.44rem;
+        position: relative;
+        .banner-content{
+           width: 60%;
+           height: 2rem;
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           margin-top: -0.8rem;
+           margin-left: -30%;
+           text-align: center;
+           .contentImg{
+               img{
+                   width: 100%;
+               }
+           }
+           .desc{
+                 color: white;
+                font-family: PingFangSC-Medium;
+                font-size: .48rem;
+                line-height: 1.5;
+                text-align: center;
+                margin-top: .4rem;
+              
+           }
+        }
+    }
+    .info-list{
+        text-align: center;
+        padding: .8rem 0;
+        .iconimg{
+            width: 1.8rem;
+            height: 1.8rem;
+            overflow: hidden;
+            margin: 0 auto;
+            img{
+                width: 100%;
+            }
+        }
+        .name{
+            font-size: .4rem;
+            color:rgba(31, 31, 31, 1);
+            margin-bottom: .2rem;
+        }
+        .content,.content2{
+            color:rgba(111, 110, 106, 1);
+            font-size:.32rem;
+            line-height:1.8;
+            white-space: normal;
+            word-break: break-all;
+            word-wrap: break-word;
+        }
+    }
+    .onlineMsg{
+        text-align: center;
+        padding-top:1rem ;
+        .title{
+            color: rgba(31, 31, 31, 1);
+            font-size: .56rem;
+            line-height: 1.5;
+
+        }
+        .desc{
+                color: rgba(101, 107, 111, 1);
+                font-family: Helvetica;
+                font-size: .36rem;
+                line-height: 1.5;
+      
+        }
+        .line{
+                width:1rem;
+                height: .1rem;
+                background: rgba(20, 120, 240, 1);
+                border-width: 0;
+                border-radius: 0;
+                border-style: solid;
+                margin: 0 auto;
+                margin-bottom: .8rem;
+                margin-top: .4rem;
+        }
+        .info{
+                color: rgba(153, 153, 153, 1);
+                font-size: .36rem;
+                line-height: 1.8;
+                text-align: left;
+                display: none;
+        }
+    }
+    .userInfo{
+        .myForm{
+             .form-info{
+               margin-left: 0;
+               margin-right: 0;
+            }
+            .leaveMsg{
+                margin-top: .4rem;
+            }
+            .sendBtn{
+                padding: 1rem 0;
+            }
+            
+        }
+       
+    }
+}
+
+.footer{
+    background: rgba(39, 118, 211, 1);
+    height: 1rem;
+    
+    overflow: hidden;
+    .mynav2{
+        margin: 0 auto;
+        float: none;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        display: none;
+        li{
+            
+            width: 20%;
+            a{
+                color: #000;
+                font-size: .32rem;
+                background: rgba(39, 118, 211, 1);
+                &:hover{
+                    color: #fff;
+                }
+            }
+            
+        }
+    }
+    .title{
+        font-size: .24rem;
+        letter-spacing: 1px;
+        margin-top: .2rem;
+        line-height: 1.5;
+        color:rgba(135, 152, 170, 1);
+    }
+}
+   
+   
+}
